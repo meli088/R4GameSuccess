@@ -1,60 +1,56 @@
 # R4GameSuccess
+
 Used R to decipher success factors in the video game industry.
-## R4GameSuccess
 
 ## Description
 
-Ce projet explore les éléments clés qui définissent le succès des jeux vidéo dans un environnement compétitif. À travers une analyse approfondie des données, nous examinons des facteurs tels que les performances des jeux, les stratégies des éditeurs, et les tendances du marché qui influencent les ventes et la popularité des jeux. Les analyses sont réalisées en R.
+This project explores the key elements that define the success of video games in a competitive environment. Through comprehensive data analysis, we examine factors such as game performance, publisher strategies, and market trends that influence game sales and popularity. The analyses are conducted using R.
 
-## Contexte
+## Background
 
-Dans un secteur où la popularité et les ventes des jeux vidéo sont des indicateurs clés de succès, il est crucial de comprendre les facteurs qui influencent ces métriques. Ce projet s'intéresse à divers aspects des jeux vidéo pour déterminer ce qui fait le succès des jeux sur le marché.
+In a sector where the popularity and sales of video games are key success indicators, understanding the factors that influence these metrics is crucial. This project investigates various aspects of video games to determine what drives their success in the market.
 
+## Objectives
 
-## Objectifs
+- Identify critical factors influencing the success of video games.
+- Analyze trends and publisher strategies that contribute to high sales.
+- Explore the relationship between critical scores and game sales.
 
-- Identifier les facteurs critiques influençant le succès des jeux vidéo.
-- Analyser les tendances et les stratégies des éditeurs qui contribuent aux ventes élevées.
-- Explorer la relation entre les scores critiques et les ventes de jeux.
+## Data
 
-## Données
-**video_games_2.csv** : Fichier contenant les données de ventes, scores, et autres caractéristiques des jeux vidéo.
-- **POSTER.pdf** : Document fournissant un aperçu des objectifs et des questions abordées dans l'analyse.
+- **video_games_2.csv**: File containing data on sales, scores, and other characteristics of video games.
+- **POSTER.pdf**: Document providing an overview of the objectives and questions addressed in the analysis.
 
-## Méthodologie
+## Methodology
 
-1. **Collecte et Préparation des Données** : Les données sont importées et nettoyées à l'aide de scripts R.
-2. **Analyse Exploratoire des Données (EDA)** : Visualisation et analyse initiale pour identifier les tendances et les patterns.
-3. **Modélisation et Analyse Statistique** : Utilisation de modèles de régression et d'autres techniques statistiques pour comprendre les relations entre les variables.
-4. **Visualisation des Résultats** : Création de graphiques et de rapports pour illustrer les résultats.
+1. **Data Collection and Preparation**: Data is imported and cleaned using R scripts.
+2. **Exploratory Data Analysis (EDA)**: Initial visualization and analysis to identify trends and patterns.
+3. **Modeling and Statistical Analysis**: Application of regression models and other statistical techniques to understand relationships between variables.
+4. **Results Visualization**: Creation of graphs and reports to illustrate findings.
 
 ## Installation
 
-Pour exécuter ce projet localement :
+To run this project locally:
 
-1. Clonez le dépôt :
+1. Clone the repository:
    ```bash
    git clone https://github.com/meli088/R4GameSuccess
-
-2. Installez les packages R requis :
+2.Install the required R packages:
 install.packages(c("dplyr", "ggplot2", "readr"))
 
-Utilisation
-Pour exécuter l analyse :
-
-1.Pré-traitement des données :
+Usage
+1. Data Preprocessing:
 Rscript projetR2_1.r
 
-2.Génération de rapports :
+2. Report Generation
+The results of the analysis will be available in the results directory (create it if necessary).
 
-Les résultats de l analyse seront disponibles dans le répertoire results (à créer si nécessaire).
+Results
+The analysis results provide insights into the factors influencing video game success, including:
 
-Résultats
-Les résultats de l analyse montrent des insights sur les facteurs influençant le succès des jeux vidéo, notamment :
+The correlation between critical scores and sales.
+The impact of publisher strategies on game success.
+Market trends identified from historical data.
 
-La corrélation entre les scores critiques et les ventes.
-L impact des stratégies des éditeurs sur le succès des jeux.
-Les tendances de marché identifiées à partir des données historiques.
-
-Contributeurs
-Mélina Farshchi - https://github.com/meli088
+Contributors
+Mélina Farshchi 
